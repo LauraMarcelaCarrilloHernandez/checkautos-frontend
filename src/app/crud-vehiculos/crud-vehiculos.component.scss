@@ -1,0 +1,50 @@
+.cls-content-page {
+  // padding: 10px 35px;
+
+   table{
+     width: 100%;
+   }
+ }
+.backColor{
+  background-color: #111119;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  align-content: center;
+}
+
+//.example-label {
+//   display: table-cell;
+//   font-size: 14px;
+//   margin-left: 8px;
+//   min-width: 120px;
+// background: rgb(255,146,1);
+// background: linear-gradient(90deg, rgba(255,146,1,1) 0%, rgba(255,125,5,1) 100%);}
+
+.example-button-row {
+  justify-content: 20px;
+  display: flex;
+  align-items: center;
+  top: -20px;
+  position: relative;
+
+}
+
+.mat-success {
+  background-color: rgb(255,146,1);
+  background: linear-gradient(90deg, rgba(255,146,1,1) 0%, rgba(255,125,5,1) 100%);
+  color: #fff;
+  margin: 10px 15px 5px 15px;
+}
+
+.editor{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 0 350px;
+}
+
+.select-name{
+  cursor: pointer;
+}

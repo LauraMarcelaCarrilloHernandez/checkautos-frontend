@@ -1,0 +1,60 @@
+nav {
+  background-color: #171821;
+  border: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+p {
+  color: #B0B0B0;
+
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.perfil_detalles {
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+
+}
+
+.nombre {
+  font-size: 16px;
+  margin-bottom: -1px;
+
+}
+
+.cargo {
+  margin-bottom: -5px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.foto img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+
+}

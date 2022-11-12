@@ -1,0 +1,31 @@
+.example-button-row {
+  justify-content: 20px;
+  display: flex;
+  align-items: center;
+  top: -20px;
+  position: relative;
+
+}
+
+.input-editor {
+  height: 32px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: solid 1px rgb(255, 146, 1);
+}
+
+.button-editor {
+  background: linear-gradient(90deg, rgba(255, 146, 1, 1) 0%, rgba(255, 125, 5, 1) 100%);
+  color: #fff;
+  margin: 10px 15px 5px 15px;
+}
+
+.div-editor {
+  display: flex;
+  align-items: center;
+  //align-content: space-between;
+  flex-direction: row;
+  //justify-content: center;
+  margin-right: 20px;
+
+}

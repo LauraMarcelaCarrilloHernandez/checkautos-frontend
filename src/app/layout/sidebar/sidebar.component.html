@@ -1,0 +1,47 @@
+<head>
+  <script src="https://kit.fontawesome.com/b0061e1086.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<div class="cls-sidebar">
+  <!-- Sección solicitudes  -->
+  <div #btnSolicitudes class="buttom">
+    <i class="fa-solid fa-calendar-week" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('solicitudes')">Solicitudes</span>
+  </div>
+  <!-- Sección Vehiculos  -->
+  <div id = "primary" class="buttom">
+    <i class="fa-solid fa-car" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('vehiculos')">Vehículos</span>
+  </div>
+  <!-- Sección Mecánicos -->
+  <div class="buttom">
+    <i class="fa-solid fa-id-card-clip" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('mecanicos')">Mecánicos</span>
+  </div>
+  <!-- Sección Notificaciones -->
+  <div class="buttom">
+    <i class="fa-solid fa-bell" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('notificaciones')">Notificaciones</span>
+  </div>
+  <!-- Sección historial -->
+  <div class="buttom">
+    <i class="fa-solid fa-list-ul" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('historial')">Historial</span>
+  </div>
+</div>
+
+<div class="cls-sidebar">
+  <!-- Sección perfil  -->
+
+  <div class="buttom">
+    <i class="fa-solid fa-user-large" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('perfil')">Mi Perfil</span>
+  </div>
+  <!-- Sección Soporte -->
+  <div class="buttom">
+    <i class="fa-solid fa-headset" style="margin-right: 15px;"></i>
+    <span (click)="sideClick('soporte')">Soporte</span>
+  </div>
+</div>
